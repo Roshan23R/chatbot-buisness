@@ -1,0 +1,151 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello and welcome to our online store!",
+        "Hi there, how can we assist you today?",
+        "Hey, great to see you! How may we help you?",
+        "Good day! How can we make your shopping experience better?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "Goodbye and thanks for shopping with us!",
+        "See you later! Have a wonderful day.",
+        "Bye! We look forward to your next visit.",
+        "Farewell! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it", "Thank's a lot!"],
+      "responses": ["You're welcome!", "Thank you for choosing us!", "It's our pleasure to assist you.", "We're here to help anytime!"]
+    },
+    {
+      "tag": "products",
+      "patterns": [
+        "What products do you offer?",
+        "Tell me about your product range.",
+        "What can I buy from your store?"
+      ],
+      "responses": [
+        "We offer a wide range of products, including clothing, electronics, home decor, and more.",
+        "Our product range includes clothing, electronics, home decor, and many other items.",
+        "You can find clothing, electronics, home decor, and more in our store."
+      ]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": [
+        "How can I pay for my order?",
+        "What payment methods do you accept?",
+        "Can I use my credit card?"
+      ],
+      "responses": [
+        "We accept various payment methods, including Visa, Mastercard, PayPal, and more.",
+        "You can pay for your order using Visa, Mastercard, PayPal, and other major credit cards.",
+        "We support multiple payment options, such as Visa, Mastercard, and PayPal."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "When will I receive my order?",
+        "Tell me about your shipping times."
+      ],
+      "responses": [
+        "Our standard delivery time is 2-4 days, but it may vary depending on your location.",
+        "You can expect your order to arrive within 2-4 days, although shipping times may vary.",
+        "On average, our deliveries take 2-4 days, but actual delivery times may differ based on your location."
+      ]
+    },
+    {
+      "tag": "returns",
+      "patterns": [
+        "What is your return policy?",
+        "Can I return a product if I'm not satisfied?",
+        "Tell me about your refund process."
+      ],
+      "responses": [
+        "We have a flexible return policy. If you're not satisfied with your purchase, you can return it within 30 days for a full refund.",
+        "Our return policy allows you to return products within 30 days for a full refund if you're not happy with your purchase.",
+        "You can request a refund within 30 days if you're not satisfied with your order. We aim to make the return process hassle-free."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact your customer support?",
+        "Do you have a customer service hotline?",
+        "I need assistance, how can I get in touch?"
+      ],
+      "responses": [
+        "You can reach our customer support team at [customer support email/phone number]. We're here to help with any questions or issues you may have.",
+        "Our customer service team is available at [customer support email/phone number]. Please don't hesitate to contact us if you require assistance or have inquiries.",
+        "If you need assistance, you can contact our customer support team at [customer support email/phone number]. We're here to provide you with the help you need."
+      ]
+    },
+    {
+      "tag": "discounts",
+      "patterns": [
+        "Do you offer any discounts?",
+        "Are there any ongoing promotions?",
+        "Can I get a coupon code?"
+      ],
+      "responses": [
+        "We frequently run promotions and offer discounts on various products. Please check our website or subscribe to our newsletter to stay updated on our latest offers.",
+        "Yes, we regularly have promotions and discounts on select items. To stay informed about our current deals, visit our website or subscribe to our newsletter.",
+        "We have ongoing discounts and promotions on specific products. To find out more, please visit our website or sign up for our newsletter."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "I need help with my order",
+        "Can you assist me with an issue?",
+        "I'm having trouble with my purchase"
+      ],
+      "responses": [
+        "Of course! We're here to assist you. Please provide us with the details of your issue, and we'll do our best to resolve it.",
+        "We're here to help you with any order-related concerns. Kindly share the problem you're experiencing, and we'll work on a solution.",
+        "Don't worry, we're ready to assist you with any purchase-related problems. Please let us know what you need help with, and we'll take it from there."
+      ]
+    },
+    {
+      "tag": "out_of_stock",
+      "patterns": [
+        "Is this product out of stock?",
+        "Do you have this item in stock?",
+        "I can't add this to my cart, is it unavailable?"
+      ],
+      "responses": [
+        "I apologize, but it seems that this product is currently out of stock. Please check back later or explore our other available items.",
+        "Unfortunately, this item is temporarily out of stock. We recommend browsing our other available products or checking back later.",
+        "I'm sorry, but it appears that this product is not in stock right now. You might want to explore our alternative offerings."
+      ]
+    },
+    {
+      "tag": "order_tracking",
+      "patterns": [
+        "How can I track my order?",
+        "Tell me about order tracking",
+        "I'd like to know the status of my delivery."
+      ],
+      "responses": [
+        "You can track your order by logging into your account and visiting the 'Order History' section. There, you'll find information about the status of your delivery.",
+        "To track your order, log in to your account and navigate to the 'Order History' page. You'll find updates on your delivery's status there.",
+        "To check the status of your delivery, simply log in to your account and head to the 'Order History' section. All the relevant information will be available there."
+      ]
+    }
+  ]
+}
